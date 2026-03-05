@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.imgnav {
+    background-image: url(https://img.itch.zone/aW1nLzIwODY0NDg4LmdpZg==/original/IzMuo8.gif);
+    background-size: cover;
+    background-position: center;
+}
+
+
