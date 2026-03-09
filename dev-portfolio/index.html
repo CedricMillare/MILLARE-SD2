@@ -11,10 +11,10 @@
 </head>
 <body>
     <!-- Navbar Start -->
-        <nav class="navbar navbar-expand-lg bg-body-tertiary shadow imgnav sticky-top">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary shadow imgnav sticky-top border-bottom border-2 border-light">
             <div class="container-fluid">
-                <a class="navbar-brand text-light" href="#">Cedric's Portfolio</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <a class="navbar-brand text-light" href="#Home">Cedric's Portfolio</a>
+                <button class="navbar-toggler border border-2 border-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
@@ -23,16 +23,16 @@
                         <a class="nav-link active text-light" aria-current="page" href="#Home">Home</a>
                         </li>
                         <li class="nav-item">
-                        <a class="nav-link text-light" href="#">About Me</a>
+                        <a class="nav-link text-light" href="#aboutme">About Me</a>
                         </li>
                         <li class="nav-item">
-                        <a class="nav-link text-light" href="#">Tools</a>
+                        <a class="nav-link text-light" href="#tools">Tools</a>
                         </li>
                         <li class="nav-item">
-                        <a class="nav-link text-light" href="#">Projects</a>
+                        <a class="nav-link text-light" href="#project">Projects</a>
                         </li>
                         <li class="nav-item">
-                        <a class="nav-link text-light" href="#">Contacts</a>
+                        <a class="nav-link text-light" href="#contacts">Contacts</a>
                         </li>
                     </ul>
                 </div>
@@ -41,20 +41,165 @@
     <!-- Navbar End -->
 
     <!-- Home Start -->
-        <div id="Home" class="container-fluid">
-            <div class="d-flex justify-content-center align-items-center my-5">
-                <h1>Welcome to My Portfolio</h1>
+        <div id="Home" class="container-fluid bg-home">
+            <div class="d-flex p-md-5 align-items-center text-center justify-content-center text-home">
+                <div class="flex-column">
+                    <h1 class="display-3 fw-bold col-12 m-2">Welcome to My Portfolio!</h1>
+                    <img src="./images/Profilepic.png" class="img-fluid profile-pic">
+                    <p class="my-3">"You will face many defeats in life, but never let yourself be defeated."</p>
+                    <p>- Maya Angelou</p>
+                </div>
             </div>
         </div>
     <!-- Home End -->
     
     <!-- About Me Start -->
-        <div class="d-flex flex-row justify-content-center align-items-center p-2 p-md-5">
-            <h1 class="">About Me</h1>
-            <p></p>
+        <div id="aboutme" class="bg-aboutme text-aboutme container-fluid">
+            <div class="p-3 p-md-5 d-flex justify-content-center align-items-center col-12 col-md-8 mx-auto">
+                <div class="border border-light border-5 rounded-3 p-3 p-md-5">
+                    <h1 class="display-3 fw-bold text-light border-start border-secondary border-5 p-3">About Me</h1>
+
+                    <p class="m-5 text-start">I am Cedric Michael A. Millare, a Computer Engineering student at the University of the Assumption from San Miguel, San Simon, Pampanga. My dream tech career is to become a Full-Stack/Software Developer, creating applications for web and mobile platforms.</p>
+                </div>
+            </div>
         </div>
     <!-- About Me End -->
+    
+    <!-- Tools That I Used Start -->
+        <div id="tools" class="bg-tools">
+            <div class="d-flex p-md-5 flex-column justify-content-center align-items-center border border-5 border-dark p-4">
 
+                <h1 class="text-light display-3 fw-bold border-5 border-bottom border-secondary m-5">Tools I Use</h1>
+
+                <div class="container-fluid">
+                    <div class="row border border-3 border-light rounded-3 img-box">
+                        <div class="col border border-3 border-light rounded-3 m-2">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRB6z_O_83oUgnP787fr1xtBp1YYTLQM3a0tQ&s" class="img-fluid rounded p-2 p-md-5 tools-pic">
+                        </div>
+
+                        <div class="col border border-3 border-light rounded-3 m-2">
+                            <img src="https://cdn-icons-png.flaticon.com/512/5968/5968672.png" class="img-fluid rounded p-2 p-md-5 tools-pic">
+                        </div>
+
+                        <div class="col border border-3 border-light rounded-3 m-2">
+                            <img src="https://cdn-icons-png.flaticon.com/512/919/919827.png" class="img-fluid rounded p-2 p-md-5 tools-pic">
+                        </div>
+
+                        <div class="col border border-3 border-light rounded-3 m-2">
+                            <img src="https://cdn-icons-png.flaticon.com/512/5968/5968242.png" class="img-fluid rounded p-2 p-md-5 tools-pic">
+                        </div>
+                    </div> 
+                </div>
+            </div>  
+        </div>
+    <!-- Tools That I Used End -->
+
+    <!-- Projects Start -->
+        <div id="project" class="bg-primary p-2 p-md-5 d-flex flex-column bg-project">
+
+            <h1 class="my-3 my-md-5 display-3 fw-bold text-light border-start border-dark border-5 align-content-start">My Projects</h1>
+
+                <div class="row justify-content-center align-items-stretch p-mx-5 g-4">
+                    <div class="col-12 col-md-4">
+                        <div class="card">
+                            <img src="./images/LoginAndLogout.jpg" class="card-img-top" alt="...">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Log In And Log Out</h5>
+                                <p class="card-text">This project is a simple login and logout system developed using Python in PyCharm, with the Tkinter library for the graphical user interface (GUI). The system allows users to enter a username and password through a login window. If the entered credentials match the stored data, the user is successfully logged into the system and redirected to the main interface. The interface also includes a logout button that allows the user to safely exit the session and return to the login screen.</p>
+                            </div>
+                            <div class="collapse mt-3 text-center mb-3" id="project1">
+                                <p class="m-2">The project demonstrates basic concepts of GUI design, user authentication, and event handling in Python. Tkinter is used to create windows, labels, text fields, and buttons, making the application interactive and easy to use. This system can serve as a beginner-level example for understanding how login systems work in desktop applications and can be expanded in the future to include features such as user registration, password validation, and database integration.</p>
+                                <p>(Members: Cedric And Kelvin)</p>
+                                
+                            </div>
+                            <a href="#project1" class="btn btn-secondary m-3" data-bs-toggle="collapse">Read Full</a>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-4">
+                        <div class="card">
+                            <img src="./images/L-carpioFlowerShop.jpg" class="card-img-top" alt="...">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">L-Carpio Flowershop</h5>
+                                <p class="card-text">L-Carpio Flowershop is a group project that allows users to order flowers online through an interactive platform. The system also includes a backend management feature where orders can be stacked and organized, making it easy for the shop to process and track multiple orders efficiently.</p>
+                            </div>
+                            <div class="collapse mt-3 text-center mb-3" id="project2">
+                                <p class="card-text">This project demonstrates skills in frontend design, backend logic, and data management, providing a complete end-to-end solution for an online flower business.</p>
+                                <p>(Members: Angelo, Yohance and Cedric )</p>
+                                
+                            </div>
+                            <a href="#project2" class="btn btn-secondary m-3" data-bs-toggle="collapse">Read Full</a>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-4">
+                        <div class="card">
+                            <img src="./images/project-3.jpg" class="card-img-top" alt="...">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">My Portfolio(2nd Year Output)</h5>
+                                <p class="card-text">This portfolio is my second-year output, built using HTML and CSS to showcase my skills in web design and layout. It includes a Home, Hobbies, and Contact page, with HTML providing the structure and content, and CSS adding styling, colors, and typography to make the pages visually appealing.</p>
+                            </div>
+                            <div class="collapse mt-3 text-center mb-3" id="project3">
+                                <p class="card-text">Please note that this portfolio is not responsive, so it is best viewed on a desktop screen.</p>
+                                
+                            </div>
+                            <a href="#project3" class="btn btn-secondary m-3" data-bs-toggle="collapse">Read Full</a>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    <!-- Projects End -->
+
+    <!-- Contacts Start -->
+    <div id="contacts" class="container-fluid p-3 p-md-5 bg-contact text-contact">
+        <h1 class="display-3 fw-bold text-primary mb-5 border-start border-dark border-5 text-light p-2">Contact Me</h1>
+        <div class="row">
+            <div class="col-12 col-md-6">
+                <div class="mb-3 p-3 p-md-3 col-12 bg-secondary rounded-3 text-light">
+                    <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+
+                    <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+
+                    <button class="btn bg-light text-dark my-3 w-100" type="submit">Submit</button>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 d-flex flex-column gap-3">
+                <div class="border border-light rounded-3 p-2 p-md-5 bg-secondary text-light">
+                    <h1>Email</h1>
+                    <p>cmamillare.student@ua.edu.ph</p>
+                </div>
+                <div class="border border-light rounded-3 p-3 p-md-5 bg-secondary text-light">
+                    <h1>Facebook</h1>
+                    <p>Cedric Michael A. Millare</p>
+                </div>
+                <div class="border border-light rounded-3 p-3 p-md-5 bg-secondary text-light">
+                    <h1>Contact No#:</h1>
+                    <p>0976 107 0950</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Contacts End -->
+
+    <!-- Footer Start -->
+        <footer class="d-flex bg-dark justify-content-center align-items-center img-footer border-1 border-top border-light">
+            <div class="p-2 row">
+                <div class="col">
+                    <div class="text-light col-12">
+                        <p class="">&copy; 2026 Cedric Michael A. Millare. All rights reserved.</p>
+                    </div>
+                    <div class="text-light row">
+                        <a class="btn btn-floating " href="https://www.facebook.com" target="_blank" title="Visit us on Facebook">
+                            <i class="fab fa-facebook-f" aria-hidden="true"></i>
+                        </a>
+                        
+                    </div>
+                </div>
+            </div>
+        </footer>
+    <!-- Footer End -->
 
 <!-- Bootstrap Script-->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>

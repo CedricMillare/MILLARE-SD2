@@ -1,15 +1,98 @@
 * {
-    margin: 0;
+    margin: 0 !important;
     padding: 0;
     box-sizing: border-box;
 }
 
-
+html {
+    scroll-behavior: smooth;
+}
 
 .imgnav {
-    background-image: url(https://img.itch.zone/aW1nLzIwODY0NDg4LmdpZg==/original/IzMuo8.gif);
+    background-image: url(https://media0.giphy.com/media/3o6ZsTCWKiqmbY7Tiw/giphy.gif);
+    background-size: cover;
+    background-position: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.nav-color{
+    color:white ;
+}
+
+
+.imghome {
+    background-image: url(https://usagif.com/wp-content/uploads/gifs/starfall-gif-46.gif);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.text-home{
+    font-family: 'Courier New', Courier, monospace;
+    color: #F5F5F5;
+}
+
+.bg-home {
+    background-image: url(https://i.pinimg.com/originals/f1/eb/cf/f1ebcf7e1934fe7dc416f7a5cf449060.gif);
     background-size: cover;
     background-position: center;
 }
 
+.profile-pic {
+    width: 200px;
+    height: 200px;
+}
 
+.bg-aboutme {
+    background-image: url(https://i.pinimg.com/originals/30/40/de/3040de9df8ec7b7e47f9103a87e9ede3.gif);
+    background-size: cover;
+    background-position: center;
+}
+.text-aboutme {
+    font-family: 'Courier New', Courier, monospace;
+    color: #F5F5F5;
+}
+.bg-tools {
+    background-image: url(https://images.unsplash.com/photo-1593371256584-ac70d0ab43d1?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8);
+    background-size: cover;
+    background-position: center;
+}
+.bg-project {
+    background-image: url(https://wallpapers.com/images/hd/dark-starry-night-428tdkzpbc2djxva.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.bg-contact {
+    background-image: url(https://images.unsplash.com/photo-1593371256584-ac70d0ab43d1?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8);
+    background-size: cover;
+    background-position: center;
+}
+
+.text-contact {
+    font-family: 'Courier New', Courier, monospace;
+    color: #F5F5F5;
+}
+
+.img-footer {
+    background-image: url(https://cdn.pixabay.com/animation/2023/03/19/02/34/02-34-11-741_512.gif);
+    background-size: cover;
+    background-position: center;
+}
+
+.tools-pic {
+    width: 200px;
+    height: 200px;
+}
+
+.icon-pic {
+    width: 100px;
+    height: 100px;
+}
+
+.img-box img{
+    width: 300px;
+    transition: transform 0.3s ease;
+}
+
+.img-box img:hover{
+    transform: scale(1.2);
+}
