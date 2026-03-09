@@ -57,7 +57,7 @@ html {
     background-position: center;
 }
 .bg-project {
-    background-image: url(https://wallpapers.com/images/hd/dark-starry-night-428tdkzpbc2djxva.jpg);
+    background-image: url(https://animesher.com/orig/0/89/890/8906/animesher.com_dark-starry-night-anime-gif-890673.gif);
     background-size: cover;
     background-position: center;
 }
@@ -95,4 +95,12 @@ html {
 
 .img-box img:hover{
     transform: scale(1.2);
+}
+
+.container-box div{
+    width: 300px;
+    transition: transform 0.3s ease;
+}
+.container-box div:hover {
+    transform: scale(1.05);
 }
