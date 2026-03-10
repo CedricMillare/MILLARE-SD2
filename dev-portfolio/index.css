@@ -12,6 +12,8 @@ html {
     background-image: url(https://media0.giphy.com/media/3o6ZsTCWKiqmbY7Tiw/giphy.gif);
     background-size: cover;
     background-position: center;
+}
+.text-nav{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .nav-color{
