@@ -188,8 +188,9 @@ console.log(charmander);
 // 100 max mana
 
 
-
 charmander.useSkill1(pikachu);
+charmander.tackle(pikachu);
+charmander.tackle(pikachu);
 charmander.useSkill1(pikachu);
 console.log(pikachu);
 
