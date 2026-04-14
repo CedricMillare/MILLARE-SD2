@@ -104,6 +104,7 @@ function Pokemon(name, level, health, mana){
         this.mana += 40;
         if(this.mana > 100){
             this.mana = 100;
+            console.log(`${this.name} mana: ${this.mana}. ${target.name} health: ${target.health}`);
         }else{
             console.log(`${this.name} mana: ${this.mana}. ${target.name} health: ${target.health}`);
         }
@@ -189,6 +190,7 @@ console.log(charmander);
 
 
 charmander.useSkill1(pikachu);
+charmander.tackle(pikachu);
 charmander.tackle(pikachu);
 charmander.tackle(pikachu);
 charmander.useSkill1(pikachu);
