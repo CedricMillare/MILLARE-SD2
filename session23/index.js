@@ -34,10 +34,10 @@ const taskSchema = new mongoose.Schema({
 const Task = mongoose.model("Task", taskSchema);
 
 // Middewares
-server.use(express.json());
+server.use(express.json()); // only accepting json format
 server.use(express.urlencoded({extended: true}));
 
-// req -> user, res -> server
+// req -> user, res -> server gives respond so the user knows that it already added.
 server.get("/home", (req, res) => {
     res.send("Hello from the home endpoint!");
 });
